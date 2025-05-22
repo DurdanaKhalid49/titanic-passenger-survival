@@ -73,7 +73,7 @@ Slicers and interactive visuals
 💼 Author
 Durdana Khalid
 Aspiring Data Scientist | Skilled in Python, ML, Dash, Power BI
-LinkedIn | Portfolio
+https://www.linkedin.com/in/durdana-khalid-66b6461ba/ | Portfolio Coming Soon
 
 📄 License
 This project is open-source and free to use.
