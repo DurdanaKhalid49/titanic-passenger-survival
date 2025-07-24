@@ -2,16 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-
 import os
-import streamlit as st
 
-st.write("=== DEPLOYMENT DEBUG ===")
-st.write("Current working directory:", os.getcwd())
-st.write("Contents of Streamlit_Dashboard/model/:", os.listdir(os.path.join(os.getcwd(), "Streamlit_Dashboard", "model")))
 
-# Load the trained model
-model = joblib.load("model/titanic_pipeline.joblib")
+model_path = os.path.join(os.path.dirname(__file__), "model", "titanic_pipeline.joblib")
+model = joblib.load(model_path)
+
 
 # Streamlit page setup
 st.set_page_config(page_title="🚢 Titanic Survival Prediction", layout="wide", page_icon="🧊")
